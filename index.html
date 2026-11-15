@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover the latest smartphones and premium accessories at MOBILE ZONE, your destination for considered tech in Egypt.">
+    <meta name="theme-color" content="#111110">
+    <title>MOBILE ZONE | Upgrade Your Tech Life</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <p class="announcement-bar">Complimentary delivery on orders over EGP 5,000</p>
+    <header class="site-header">
+      <div class="header-main">
+        <a class="brand" href="index.html" aria-label="MOBILE ZONE home">
+          <span class="brand-name">MOBILE ZONE</span>
+          <span class="brand-tagline">TECH. REIMAGINED.</span>
+        </a>
+        <form class="site-search" action="offers.html" method="get" role="search">
+          <label class="visually-hidden" for="site-search-input">Search products</label>
+          <input id="site-search-input" name="q" type="search" placeholder="Search phones, accessories and more">
+          <button type="submit" aria-label="Submit product search">Search</button>
+        </form>
+        <a class="cart-link" href="cart.html">Shopping cart <span class="cart-count" aria-label="0 items">0</span></a>
+      </div>
+      <nav class="primary-navigation" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home</a></li>
+          <li><a href="iphone.html">iPhone</a></li>
+          <li><a href="android.html">Android Phones</a></li>
+          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="offers.html">Offers</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="cart.html">Shopping Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">A LITTLE EXTRA FOR YOU</p>
+          <h1 id="hero-title">Upgrade Your Tech Life</h1>
+          <p>Discover the latest smartphones and premium accessories.</p>
+          <a class="button button-primary" href="#featured-products">Shop Now</a>
+        </div>
+        <figure class="hero-media">
+          <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&amp;fit=crop&amp;w=1800&amp;q=90" alt="Modern smartphone with a vivid edge-to-edge display">
+        </figure>
+      </section>
+
+      <section class="search-and-filters" id="product-search" aria-labelledby="search-title">
+        <h2 id="search-title">Find your next favorite</h2>
+        <form action="offers.html" method="get" role="search">
+          <div class="filter-field">
+            <label for="home-search">Search products</label>
+            <input id="home-search" name="q" type="search" placeholder="Try iPhone, Samsung or headphones">
+          </div>
+          <div class="filter-field">
+            <label for="home-category">Category</label>
+            <select id="home-category" name="category">
+              <option value="">All categories</option>
+              <option value="iphone">iPhone</option>
+              <option value="android">Android phones</option>
+              <option value="accessories">Accessories</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="home-brand">Brand</label>
+            <select id="home-brand" name="brand">
+              <option value="">All brands</option>
+              <option>Apple</option>
+              <option>Samsung</option>
+              <option>Xiaomi</option>
+              <option>Google</option>
+            </select>
+          </div>
+          <div class="filter-field">
+            <label for="home-min-price">Minimum price (EGP)</label>
+            <input id="home-min-price" name="min" type="number" min="0" inputmode="numeric" placeholder="0">
+          </div>
+          <div class="filter-field">
+            <label for="home-max-price">Maximum price (EGP)</label>
+            <input id="home-max-price" name="max" type="number" min="0" inputmode="numeric" placeholder="Any">
+          </div>
+          <div class="filter-field">
+            <label for="home-sort">Sort by price</label>
+            <select id="home-sort" name="sort">
+              <option value="featured">Featured</option>
+              <option value="price-low-high">Price: low to high</option>
+              <option value="price-high-low">Price: high to low</option>
+            </select>
+          </div>
+          <div class="filter-field filter-field-checkbox">
+            <input id="home-availability" name="availability" type="checkbox" value="in-stock">
+            <label for="home-availability">In-stock products only</label>
+          </div>
+          <button class="button button-primary" type="submit">Search and filter</button>
+        </form>
+      </section>
+
+      <section class="category-highlights" aria-labelledby="category-title">
+        <header class="section-heading">
+          <p class="eyebrow">A WORLD OF POSSIBILITY</p>
+          <h2 id="category-title">Shop by category</h2>
+        </header>
+        <div class="category-grid">
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Premium smartphone from the iPhone collection" loading="lazy">
+            <h3>Apple iPhone</h3>
+            <a href="iphone.html">Explore iPhone</a>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Android smartphone with a multi-camera system" loading="lazy">
+            <h3>Android phones</h3>
+            <a href="android.html">Explore Android</a>
+          </article>
+          <article class="category-card">
+            <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Wireless earbuds from the mobile accessories collection" loading="lazy">
+            <h3>Mobile accessories</h3>
+            <a href="accessories.html">Explore accessories</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="featured-products" aria-labelledby="featured-title">
+        <header class="section-heading">
+          <p class="eyebrow">THOUGHTFULLY CHOSEN</p>
+          <h2 id="featured-title">Featured products</h2>
+          <a href="offers.html">Discover the collection</a>
+        </header>
+        <div class="product-grid">
+          <article class="product-card" id="featured-iphone-17-pro-max">
+            <figure class="product-card-media">
+              <img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 17 Pro Max smartphone" loading="lazy">
+              <figcaption class="product-badge">Just in</figcaption>
+            </figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 17 Pro Max to wishlist">♡</button>
+            <p class="product-brand">Apple</p>
+            <h3><a href="product-details.html?product=iphone-17-pro-max">iPhone 17 Pro Max</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.9 out of 5">4.9 (128 reviews)</span></p>
+            <p class="product-price"><strong>EGP 84,999</strong> <del>EGP 89,999</del> <span class="discount-label">6% off</span></p>
+            <div class="product-actions">
+              <button class="button button-primary" type="button" data-cart-add="iphone-17-pro-max">Add to Cart</button>
+              <a class="button button-secondary" href="product-details.html?product=iphone-17-pro-max">View Details</a>
+            </div>
+          </article>
+          <article class="product-card" id="featured-galaxy-s25-ultra">
+            <figure class="product-card-media">
+              <img src="https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Samsung Galaxy S25 Ultra smartphone" loading="lazy">
+              <figcaption class="product-badge">Best seller</figcaption>
+            </figure>
+            <button class="wishlist-button" type="button" aria-label="Add Samsung Galaxy S25 Ultra to wishlist">♡</button>
+            <p class="product-brand">Samsung</p>
+            <h3><a href="product-details.html?product=galaxy-s25-ultra">Samsung Galaxy S25 Ultra</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.9 out of 5">4.9 (184 reviews)</span></p>
+            <p class="product-price"><strong>EGP 74,999</strong> <del>EGP 79,999</del> <span class="discount-label">6% off</span></p>
+            <div class="product-actions">
+              <button class="button button-primary" type="button" data-cart-add="galaxy-s25-ultra">Add to Cart</button>
+              <a class="button button-secondary" href="product-details.html?product=galaxy-s25-ultra">View Details</a>
+            </div>
+          </article>
+          <article class="product-card" id="featured-studio-buds">
+            <figure class="product-card-media">
+              <img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Studio Buds Pro wireless earbuds and charging case" loading="lazy">
+              <figcaption class="product-badge">Fan favorite</figcaption>
+            </figure>
+            <button class="wishlist-button" type="button" aria-label="Add Studio Buds Pro to wishlist">♡</button>
+            <p class="product-brand">Soundcore</p>
+            <h3><a href="product-details.html?product=wireless-earbuds">Studio Buds Pro</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.8 out of 5">4.8 (112 reviews)</span></p>
+            <p class="product-price"><strong>EGP 4,999</strong> <del>EGP 5,999</del> <span class="discount-label">17% off</span></p>
+            <div class="product-actions">
+              <button class="button button-primary" type="button" data-cart-add="wireless-earbuds">Add to Cart</button>
+              <a class="button button-secondary" href="product-details.html?product=wireless-earbuds">View Details</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="iphone-products" aria-labelledby="iphone-products-title">
+        <header class="section-heading">
+          <p class="eyebrow">A LITTLE EXTRA FOR YOU</p>
+          <h2 id="iphone-products-title">Apple iPhone</h2>
+          <a href="iphone.html">View all iPhone</a>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1603891128711-11b4b03bb138?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 17 Pro in a premium finish" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 17 Pro to wishlist">♡</button>
+            <p class="product-brand">Apple</p><h3><a href="product-details.html?product=iphone-17-pro">iPhone 17 Pro</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.8 out of 5">4.8 (94 reviews)</span></p>
+            <p class="product-price"><strong>EGP 74,999</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="iphone-17-pro">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=iphone-17-pro">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 17 with a vivid edge-to-edge display" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 17 to wishlist">♡</button>
+            <p class="product-brand">Apple</p><h3><a href="product-details.html?product=iphone-17">iPhone 17</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.7 out of 5">4.7 (83 reviews)</span></p>
+            <p class="product-price"><strong>EGP 54,999</strong> <del>EGP 57,999</del> <span class="discount-label">5% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="iphone-17">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=iphone-17">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1580910051074-3eb694886505?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 16 with a refined camera system" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 16 to wishlist">♡</button>
+            <p class="product-brand">Apple</p><h3><a href="product-details.html?product=iphone-16">iPhone 16</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.7 out of 5">4.7 (143 reviews)</span></p>
+            <p class="product-price"><strong>EGP 44,999</strong> <del>EGP 47,999</del> <span class="discount-label">6% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="iphone-16">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=iphone-16">View Details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="android-products" aria-labelledby="android-products-title">
+        <header class="section-heading">
+          <p class="eyebrow">FIND YOUR NEXT FAVORITE</p>
+          <h2 id="android-products-title">Android phones</h2>
+          <a href="android.html">View all Android phones</a>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Samsung Galaxy S25 smartphone" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Samsung Galaxy S25 to wishlist">♡</button>
+            <p class="product-brand">Samsung</p><h3><a href="product-details.html?product=galaxy-s25">Samsung Galaxy S25</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.7 out of 5">4.7 (92 reviews)</span></p>
+            <p class="product-price"><strong>EGP 49,999</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="galaxy-s25">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=galaxy-s25">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Samsung Galaxy A56 5G smartphone" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Samsung Galaxy A56 5G to wishlist">♡</button>
+            <p class="product-brand">Samsung</p><h3><a href="product-details.html?product=galaxy-a56">Samsung Galaxy A56 5G</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.6 out of 5">4.6 (76 reviews)</span></p>
+            <p class="product-price"><strong>EGP 22,999</strong> <del>EGP 24,999</del> <span class="discount-label">8% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="galaxy-a56">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=galaxy-a56">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Xiaomi 15 smartphone" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Xiaomi 15 to wishlist">♡</button>
+            <p class="product-brand">Xiaomi</p><h3><a href="product-details.html?product=xiaomi-15">Xiaomi 15</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.7 out of 5">4.7 (58 reviews)</span></p>
+            <p class="product-price"><strong>EGP 48,999</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="xiaomi-15">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=xiaomi-15">View Details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="accessory-products" aria-labelledby="accessory-products-title">
+        <header class="section-heading">
+          <p class="eyebrow">THE PERFECT FINISH</p>
+          <h2 id="accessory-products-title">Mobile accessories</h2>
+          <a href="accessories.html">View all accessories</a>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1601593346740-925612772716?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Protective Everyday Leather Case for smartphones" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Everyday Leather Case to wishlist">♡</button>
+            <p class="product-brand">MOBILE ZONE</p><h3><a href="product-details.html?product=leather-case">Everyday Leather Case</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.6 out of 5">4.6 (36 reviews)</span></p>
+            <p class="product-price"><strong>EGP 1,299</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="leather-case">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=leather-case">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Compact 30-watt USB-C fast charger" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add 30W USB-C Fast Charger to wishlist">♡</button>
+            <p class="product-brand">Anker</p><h3><a href="product-details.html?product=usb-c-charger">30W USB-C Fast Charger</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.8 out of 5">4.8 (65 reviews)</span></p>
+            <p class="product-price"><strong>EGP 1,799</strong> <del>EGP 2,199</del> <span class="discount-label">18% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="usb-c-charger">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=usb-c-charger">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Studio Buds Pro wireless earbuds" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Studio Buds Pro to wishlist">♡</button>
+            <p class="product-brand">Soundcore</p><h3><a href="product-details.html?product=wireless-earbuds">Studio Buds Pro</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.8 out of 5">4.8 (112 reviews)</span></p>
+            <p class="product-price"><strong>EGP 4,999</strong> <del>EGP 5,999</del> <span class="discount-label">17% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="wireless-earbuds">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=wireless-earbuds">View Details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="best-sellers" aria-labelledby="best-sellers-title">
+        <header class="section-heading">
+          <p class="eyebrow">LOVED BY OUR COMMUNITY</p>
+          <h2 id="best-sellers-title">Best sellers</h2>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 16 Pro Max in a titanium finish" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 16 Pro Max to wishlist">♡</button>
+            <p class="product-brand">Apple</p><h3><a href="product-details.html?product=iphone-16-pro-max">iPhone 16 Pro Max</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.9 out of 5">4.9 (207 reviews)</span></p>
+            <p class="product-price"><strong>EGP 69,999</strong> <del>EGP 77,999</del> <span class="discount-label">10% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="iphone-16-pro-max">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=iphone-16-pro-max">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="9H tempered glass screen protector" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add 9H Tempered Glass Protector to wishlist">♡</button>
+            <p class="product-brand">MOBILE ZONE</p><h3><a href="product-details.html?product=tempered-glass">9H Tempered Glass Protector</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.5 out of 5">4.5 (82 reviews)</span></p>
+            <p class="product-price"><strong>EGP 499</strong> <del>EGP 699</del> <span class="discount-label">29% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="tempered-glass">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=tempered-glass">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Active Series Smart Watch with a round display" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Active Series Smart Watch to wishlist">♡</button>
+            <p class="product-brand">Amazfit</p><h3><a href="product-details.html?product=smart-watch">Active Series Smart Watch</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.6 out of 5">4.6 (74 reviews)</span></p>
+            <p class="product-price"><strong>EGP 6,999</strong> <del>EGP 7,999</del> <span class="discount-label">13% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="smart-watch">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=smart-watch">View Details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section special-offers" id="special-offers" aria-labelledby="special-offers-title">
+        <header class="section-heading">
+          <p class="eyebrow">A MOMENT TO MAKE IT YOURS</p>
+          <h2 id="special-offers-title">Special offers</h2>
+          <a href="offers.html">Shop all offers</a>
+        </header>
+        <div class="product-grid">
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="iPhone 16 Pro with a pro camera system" loading="lazy"><figcaption class="product-badge">9% off</figcaption></figure>
+            <button class="wishlist-button" type="button" aria-label="Add iPhone 16 Pro to wishlist">♡</button>
+            <p class="product-brand">Apple</p><h3><a href="product-details.html?product=iphone-16-pro">iPhone 16 Pro</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.8 out of 5">4.8 (166 reviews)</span></p>
+            <p class="product-price"><strong>EGP 62,999</strong> <del>EGP 68,999</del> <span class="discount-label">9% off</span></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="iphone-16-pro">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=iphone-16-pro">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1609592806596-b43bada2f970?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Braided USB-C charging cable" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Braided USB-C Cable to wishlist">♡</button>
+            <p class="product-brand">Anker</p><h3><a href="product-details.html?product=braided-cable">Braided USB-C Cable</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.5 out of 5">4.5 (48 reviews)</span></p>
+            <p class="product-price"><strong>EGP 599</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="braided-cable">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=braided-cable">View Details</a></div>
+          </article>
+          <article class="product-card">
+            <figure class="product-card-media"><img src="https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&amp;fit=crop&amp;w=900&amp;q=85" alt="Anker Magnetic Power Bank 10K" loading="lazy"></figure>
+            <button class="wishlist-button" type="button" aria-label="Add Magnetic Power Bank 10K to wishlist">♡</button>
+            <p class="product-brand">Anker</p><h3><a href="product-details.html?product=power-bank">Magnetic Power Bank 10K</a></h3>
+            <p class="product-rating"><span aria-hidden="true">★★★★★</span> <span aria-label="Rated 4.7 out of 5">4.7 (53 reviews)</span></p>
+            <p class="product-price"><strong>EGP 3,499</strong></p>
+            <div class="product-actions"><button class="button button-primary" type="button" data-cart-add="power-bank">Add to Cart</button><a class="button button-secondary" href="product-details.html?product=power-bank">View Details</a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="popular-brands" id="popular-brands" aria-labelledby="brands-title">
+        <header class="section-heading">
+          <p class="eyebrow">BRANDS YOU LOVE</p>
+          <h2 id="brands-title">Popular brands</h2>
+        </header>
+        <ul class="brand-list">
+          <li><a href="iphone.html">Apple</a></li>
+          <li><a href="android.html#samsung-products">Samsung</a></li>
+          <li><a href="android.html#xiaomi-products">Xiaomi</a></li>
+          <li><a href="android.html#google-products">Google</a></li>
+          <li><a href="accessories.html#anker-accessories">Anker</a></li>
+          <li><a href="accessories.html#audio-accessories">Soundcore</a></li>
+        </ul>
+      </section>
+
+      <section class="customer-reviews" id="customer-reviews" aria-labelledby="reviews-title">
+        <header class="section-heading">
+          <p class="eyebrow">KIND WORDS, REAL EXPERIENCES</p>
+          <h2 id="reviews-title">A better kind of shopping</h2>
+        </header>
+        <div class="review-grid">
+          <article class="review-card">
+            <p class="review-rating"><span aria-hidden="true">★★★★★</span><span class="visually-hidden">5 out of 5 stars</span></p>
+            <blockquote>“The team helped me choose the right phone without any pressure. Delivery was quick and everything arrived beautifully packaged.”</blockquote>
+            <p class="review-author">Mariam H. <span>Verified customer</span></p>
+          </article>
+          <article class="review-card">
+            <p class="review-rating"><span aria-hidden="true">★★★★★</span><span class="visually-hidden">5 out of 5 stars</span></p>
+            <blockquote>“A genuinely smooth experience from browsing to delivery. My new earbuds sound incredible, and the price was fair.”</blockquote>
+            <p class="review-author">Omar A. <span>Verified customer</span></p>
+          </article>
+          <article class="review-card">
+            <p class="review-rating"><span aria-hidden="true">★★★★★</span><span class="visually-hidden">5 out of 5 stars</span></p>
+            <blockquote>“I found exactly what I needed and had all my questions answered. MOBILE ZONE has become my go-to for tech.”</blockquote>
+            <p class="review-author">Nour E. <span>Verified customer</span></p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <section class="footer-brand" aria-labelledby="footer-brand-title">
+          <h2 id="footer-brand-title">MOBILE ZONE</h2>
+          <p>Thoughtful technology. Personal service. A better way to upgrade.</p>
+        </section>
+        <nav class="footer-navigation" aria-label="Footer navigation">
+          <h2>Explore</h2>
+          <ul>
+            <li><a href="iphone.html">iPhone</a></li>
+            <li><a href="android.html">Android phones</a></li>
+            <li><a href="accessories.html">Accessories</a></li>
+            <li><a href="offers.html">Offers</a></li>
+          </ul>
+        </nav>
+        <address class="footer-contact">
+          <h2>Get in touch</h2>
+          <a href="mailto:hello@mobilezone.eg">hello@mobilezone.eg</a>
+          <a href="tel:+20255550123">+20 2 5555 0123</a>
+          <p>Cairo, Egypt</p>
+        </address>
+        <nav class="social-links" aria-label="Social media">
+          <h2>Follow us</h2>
+          <ul>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-legal">&copy; 2026 MOBILE ZONE. Prices are listed in Egyptian Pounds (EGP).</p>
+    </footer>
+  </body>
+</html>

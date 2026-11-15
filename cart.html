@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Review the products in your MOBILE ZONE shopping cart and continue to checkout.">
+    <meta name="theme-color" content="#111110">
+    <title>Your Shopping Cart | MOBILE ZONE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <p class="announcement-bar">Complimentary delivery on orders over EGP 5,000</p>
+    <header class="site-header">
+      <div class="header-main">
+        <a class="brand" href="index.html" aria-label="MOBILE ZONE home"><span class="brand-name">MOBILE ZONE</span><span class="brand-tagline">TECH. REIMAGINED.</span></a>
+        <form class="site-search" action="offers.html" method="get" role="search">
+          <label class="visually-hidden" for="site-search-input">Search products</label>
+          <input id="site-search-input" name="q" type="search" placeholder="Search phones and accessories">
+          <button type="submit" aria-label="Search products">Search</button>
+        </form>
+        <a class="cart-link" href="cart.html" aria-current="page">Shopping cart <span class="cart-count" aria-label="2 items">2</span></a>
+      </div>
+      <nav class="primary-navigation" aria-label="Main navigation">
+        <ul><li><a href="index.html">Home</a></li><li><a href="iphone.html">iPhone</a></li><li><a href="android.html">Android Phones</a></li><li><a href="accessories.html">Accessories</a></li><li><a href="offers.html">Offers</a></li><li><a href="contact.html">Contact Us</a></li><li><a href="cart.html" aria-current="page">Shopping Cart</a></li></ul>
+      </nav>
+    </header>
+    <main id="main-content" class="cart-page">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><ol><li><a href="index.html">Home</a></li><li aria-current="page">Shopping cart</li></ol></nav>
+      <header class="page-heading"><p class="eyebrow">YOUR NEXT FAVORITE THING IS HERE</p><h1>Your shopping cart</h1><p>Review your selections before you make them yours.</p></header>
+      <div class="cart-layout">
+        <section class="cart-items" aria-labelledby="cart-items-title">
+          <h2 id="cart-items-title">Your items <span>(2)</span></h2>
+          <article class="cart-item" id="cart-item-iphone-17-pro-max">
+            <a class="cart-item-image" href="product-details.html?product=iphone-17-pro-max"><img src="https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&amp;fit=crop&amp;w=600&amp;q=85" alt="iPhone 17 Pro Max smartphone" loading="lazy"></a>
+            <div class="cart-item-details">
+              <p class="product-brand">Apple</p>
+              <h3><a href="product-details.html?product=iphone-17-pro-max">iPhone 17 Pro Max</a></h3>
+              <p>Cosmic Orange · 256GB</p>
+              <p class="product-price"><strong>EGP 84,999</strong></p>
+              <label for="cart-quantity-iphone">Quantity</label>
+              <div class="cart-quantity-control">
+                <button type="button" aria-label="Decrease iPhone 17 Pro Max quantity">−</button>
+                <input id="cart-quantity-iphone" name="quantity-iphone-17-pro-max" type="number" min="1" value="1" inputmode="numeric">
+                <button type="button" aria-label="Increase iPhone 17 Pro Max quantity">+</button>
+              </div>
+              <button class="remove-item" type="button" aria-label="Remove iPhone 17 Pro Max from cart">Remove</button>
+            </div>
+            <p class="cart-item-total"><span>Item total</span><strong>EGP 84,999</strong></p>
+          </article>
+          <article class="cart-item" id="cart-item-studio-buds">
+            <a class="cart-item-image" href="product-details.html?product=wireless-earbuds"><img src="https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&amp;fit=crop&amp;w=600&amp;q=85" alt="Studio Buds Pro wireless earbuds" loading="lazy"></a>
+            <div class="cart-item-details">
+              <p class="product-brand">Soundcore</p>
+              <h3><a href="product-details.html?product=wireless-earbuds">Studio Buds Pro</a></h3>
+              <p>Midnight Black</p>
+              <p class="product-price"><strong>EGP 4,999</strong> <del>EGP 5,999</del></p>
+              <label for="cart-quantity-earbuds">Quantity</label>
+              <div class="cart-quantity-control">
+                <button type="button" aria-label="Decrease Studio Buds Pro quantity">−</button>
+                <input id="cart-quantity-earbuds" name="quantity-studio-buds" type="number" min="1" value="1" inputmode="numeric">
+                <button type="button" aria-label="Increase Studio Buds Pro quantity">+</button>
+              </div>
+              <button class="remove-item" type="button" aria-label="Remove Studio Buds Pro from cart">Remove</button>
+            </div>
+            <p class="cart-item-total"><span>Item total</span><strong>EGP 4,999</strong></p>
+          </article>
+          <p class="continue-shopping"><a href="iphone.html">Continue shopping</a></p>
+        </section>
+        <aside class="cart-summary" aria-labelledby="summary-title">
+          <h2 id="summary-title">Order summary</h2>
+          <dl>
+            <div><dt>Subtotal</dt><dd>EGP 89,998</dd></div>
+            <div><dt>Delivery</dt><dd>Complimentary</dd></div>
+            <div class="cart-total"><dt>Total</dt><dd>EGP 89,998</dd></div>
+          </dl>
+          <p>All prices are shown in Egyptian Pounds (EGP).</p>
+          <form action="contact.html#contact-form" method="get">
+            <button class="button button-primary" type="submit">Proceed to Checkout</button>
+          </form>
+          <p class="secure-checkout-note">Need a hand? <a href="contact.html">Contact our team</a>.</p>
+        </aside>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <div class="footer-main"><section><h2>MOBILE ZONE</h2><p>Thoughtful technology. Personal service.</p></section><nav aria-label="Footer navigation"><h2>Explore</h2><ul><li><a href="iphone.html">iPhone</a></li><li><a href="android.html">Android phones</a></li><li><a href="accessories.html">Accessories</a></li><li><a href="offers.html">Offers</a></li></ul></nav><address><h2>Contact</h2><a href="mailto:hello@mobilezone.eg">hello@mobilezone.eg</a><a href="tel:+20255550123">+20 2 5555 0123</a><p>Cairo, Egypt</p></address><nav aria-label="Social media"><h2>Follow us</h2><ul><li><a href="https://www.instagram.com/">Instagram</a></li><li><a href="https://www.facebook.com/">Facebook</a></li></ul></nav></div>
+      <p class="footer-legal">&copy; 2026 MOBILE ZONE. Prices in Egyptian Pounds (EGP).</p>
+    </footer>
+  </body>
+</html>
